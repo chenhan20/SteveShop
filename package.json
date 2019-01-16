@@ -14,6 +14,7 @@
     "pug": "2.0.0-beta11"
   },
   "devDependencies": {
-    "webpack": "^4.28.4"
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
   }
 }
