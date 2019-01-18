@@ -19,6 +19,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+//根目錄新增 bower 目錄
+app.use(express.static(path.join(__dirname, 'bower_components')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);

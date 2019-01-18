@@ -1,0 +1,20 @@
+{
+  "name": "steveshop",
+  "description": "",
+  "main": "",
+  "authors": [
+    "SteveChuang <a0911558945@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/chenhan20/SteveShop",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "4.0.0-alpha.6"
+  }
+}
