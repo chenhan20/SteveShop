@@ -1,3 +1,4 @@
-import '../css/index.sass'; // 這裡
+    import '../css/index.sass'; // 這裡
+    import 'bootstrap';
 
-console.log('It works!')
+    console.log('It works!')

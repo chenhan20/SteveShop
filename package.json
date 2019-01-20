@@ -6,13 +6,17 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "bootstrap": "^4.0.0-beta.3",
     "bower": "^1.8.6",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "express": "~4.16.0",
     "http-errors": "~1.6.2",
+    "jquery": "^3.3.1",
     "morgan": "~1.9.0",
-    "pug": "2.0.0-beta11"
+    "popper.js": "^1.14.6",
+    "pug": "2.0.0-beta11",
+    "save": "^2.3.3"
   },
   "devDependencies": {
     "node-sass": "^4.11.0",
