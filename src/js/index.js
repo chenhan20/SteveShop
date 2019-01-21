@@ -1,4 +1,7 @@
-    import '../css/index.sass'; // 這裡
-    import 'bootstrap';
+import 'jquery';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../css/index.sass'; // 這裡
 
-    console.log('It works!')
+    $('.steve').text('Jquery It works!');
+
