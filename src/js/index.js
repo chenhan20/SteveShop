@@ -7,5 +7,4 @@ import '@fortawesome/fontawesome-free/js/regular';
 import '@fortawesome/fontawesome-free/js/brands';
 import '../css/index.sass'; // 這裡
 
-    $('.steve').text('Jquery It works!');
 

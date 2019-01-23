@@ -1,15 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Bangers|Cormorant+Garamond')  
-h1 
-  color: red
-  text-align: center
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 800
+@import url('https://fonts.googleapis.com/css?family=Bangers|Cormorant+Garamond|IBM+Plex+Mono')  
 
-nav 
-  text-align: center
-  li
-    font-family: 'Bangers', cursive;
-    display: inline
-    margin: 30px
+body
+  background-image: linear-gradient(to right, #434343 0%, black 100%)
+  h1 
+    color: white
     text-align: center
-    font-size: 1.5em
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 800
+
+  nav 
+    text-align: center
+    li
+      cursor: pointer
+      font-family: 'IBM Plex Mono', monospace
+      display: inline
+      padding: 30px 10px 10px 30px
+      font-size: 1.5em
+      color: white
+      &:hover
+        background-color: white
+        color: black
+
+  .aaaaa
+    background-image: url(/img/motor.jpg)
