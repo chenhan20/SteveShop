@@ -3,7 +3,16 @@ extends common/layout
 block content
   script(type='text/javascript', src='dist/bundle.js')
   h1= title
-  .container-fluid
-    .aaaaa
+  .container
+    .form-row
+      .form-group.col-md-3
+        input#inputEmail4.form-control(type='', placeholder='')
+      .form-group.col-md-3
+        input#inputPassword4.form-control(type='', placeholder='')
+      .form-group.col-md-3
+        input.form-control(type='', placeholder='' readonly)
+      .form-group.col-md-3
+        button.form-control.button 
+
     
 
